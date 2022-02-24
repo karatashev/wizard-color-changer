@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 5%;
+  color: black;
+  font-size: 2rem;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+body {
+  background-color: azure;
+  height: 100vh;
+}
+
+.container {
+  margin: 0 auto;
+  width: 400px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+i {
+  font-size: 3rem;
+  position: relative;
+  top: 80px;
+  left: 25px;
+  padding-bottom: 10px;
+}
+
+.green { color: #509724; }
+.yellow { color: #fbe300;}
+.blue { color: #00b8ff;}
